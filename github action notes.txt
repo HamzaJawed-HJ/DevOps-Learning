@@ -1,0 +1,18 @@
+github action workflow
+
+	it will run on trigger bases (like code push , merged and etc )
+	in git repo make .github/worflows/ folder then insdie make a YML file .
+
+
+key component :
+
+	event: the another name of trigger is event.
+	job: step of step that will excute in a runner(build , test , deploy). 
+	step: a single task in a job is step 
+	Runner: an any virtual machine in which our runner runs 
+
+
+workflow execution:
+
+	an event occurs--> workflow start--> jobs execute in parallel 
+ 
