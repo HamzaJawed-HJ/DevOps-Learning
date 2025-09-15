@@ -1,0 +1,17 @@
+name: first
+
+# event 
+on:
+  push:
+    branches: [ main ]
+
+# job
+jobs:
+  name:
+    runs-on: ubuntu-latest
+
+    # task
+    steps:
+      - name: Say Hello
+        run: echo "Hello from Github action"
+   
