@@ -3,11 +3,11 @@ name: Schedule Job
 on:
 # minute(0-59) ,hour(0-23), date(1-31),month(1-12),week(0-6)  
   schedule:
-    - cron: "50 21 * * *"
+    - cron: "4 22 * * *"
 
 jobs:
   run-script:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
      - name: Cron job Runnig
