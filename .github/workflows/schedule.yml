@@ -3,9 +3,9 @@ name: Schedule Job
 on:
   workflow_dispatch:    # allows manual run for testing
   schedule:
-# minute(0-59) ,hour(0-23), date(1-31),month(1-12),week(0-6)  
-    - cron: "17 17 * * *"   # runs daily at 10:07 PM PKT (17:07 UTC)
-
+    # minute(0-59) ,hour(0-23), date(1-31),month(1-12),week(0-6)  
+    # - cron: "17 17 * * *"   # runs daily at 10:07 PM PKT (17:07 UTC)
+    - cron: "*/2 * * * *"   # runs every 2 minutes
 jobs:
   run-script:
     runs-on: ubuntu-latest
