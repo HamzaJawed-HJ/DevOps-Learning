@@ -1,0 +1,42 @@
+name: build node js app
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    build-node-app:
+        runs-on: ubuntu-latest
+
+        #cancel old commit and run latest commit  
+        concurrency:
+            group: deploy
+            cancel-in-progress: true
+
+
+        steps:
+         - name: Checkout Repository
+           uses: actions/checkout@v4.2.2
+         - name: Setup Node js
+           uses: actions/setup-node@v4.2.0
+           with:
+             node-version: 22.x
+             cache: 'npm'
+ 
+
+         - name: Install Dependencies
+           run: npm install
+         - name: test app
+           run: npm test
+         - name: Build Express App
+           run: npm run build
+         - name: Upload build artifacts
+           uses: actions/upload-artifact@v4
+           with:
+             name: express-app-build
+             path: | 
+                index.js
+
+            
+
+
