@@ -36,20 +36,19 @@ It helps developers and system admins quickly identify errors, warnings, and tre
 ┣ 📜 sample.log        # Example log file for testing
 ┗ 📜 README.md         # Documentation
 
-````
+```
 
----
 
 ## 🚀 Usage
 
 1. Make the script executable:
-```bash
+```
    chmod +x log_analyzer.sh
-````
+```
 
 2. Run the script with a log file:
 
-```bash
+```
    ./log_analyzer.sh /var/log/application.log
 ```
 
