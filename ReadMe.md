@@ -43,21 +43,21 @@ It helps developers and system admins quickly identify errors, warnings, and tre
 ## 🚀 Usage
 
 1. Make the script executable:
-   ```bash
+```bash
    chmod +x log_analyzer.sh
 ````
 
 2. Run the script with a log file:
 
-   ```bash
+```bash
    ./log_analyzer.sh /var/log/application.log
-   ```
+```
 
 3. The analysis will be printed to the terminal and also saved in a report file:
 
-   ```
+```
    log_analysis_YYYYMMDD_HHMMSS.txt
-   ```
+```
 
 ---
 
