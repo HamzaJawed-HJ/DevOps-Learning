@@ -5,7 +5,7 @@ This repository contains Bash scripting assignments focused on **system administ
 ---
 
 ## 📌 Assignment 2:
-# 🔍 Log Analyzer (Bash Script)
+# 1. 🔍 Log Analyzer (Bash Script)
 
 The **Log Analyzer** is a shell script that analyzes application/system log files and generates a detailed report.  
 It helps developers and system admins quickly identify errors, warnings, and trends in logs.  
@@ -97,7 +97,7 @@ Report saved to: log_analysis_20250712_143215.txt
 
 ---
 
-## System Health Monitor Dashboard
+# 2. System Health Monitor Dashboard
 
 ### 📖 Overview
 
