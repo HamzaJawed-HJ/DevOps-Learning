@@ -212,5 +212,3 @@ The script logs anomalies in **system\_alerts.log**:
 [2025-07-12 14:02:37] Memory usage exceeded 75% (78%)
 [2025-07-12 13:46:15] Disk usage on / exceeded 85% (86%)
 ```
-
----
