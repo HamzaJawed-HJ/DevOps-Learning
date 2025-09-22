@@ -30,6 +30,7 @@ It helps developers and system admins quickly identify errors, warnings, and tre
 
 ## 📂 Project Structure
 ```
+
 📁 log-analyzer
 ┣ 📜 log\_analyzer.sh   # Main Bash script
 ┣ 📜 sample.log        # Example log file for testing
@@ -96,7 +97,6 @@ Report saved to: log_analysis_20250712_143215.txt
 ```
 
 ---
-
 
 ## System Health Monitor Dashboard
 
@@ -214,4 +214,3 @@ The script logs anomalies in **system\_alerts.log**:
 ```
 
 ---
-
