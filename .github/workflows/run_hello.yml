@@ -1,0 +1,16 @@
+name: Runs Shell Script
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+jobs:
+  shell-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Run Shell Script
+        run: chmod +x ./assignment 6/hello.sh
