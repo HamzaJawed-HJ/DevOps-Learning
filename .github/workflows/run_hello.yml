@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Run Shell Script
-        run: chmod +x ./assignment 6/hello.sh
+        run: chmod +x "./assignment 6/hello.sh"
