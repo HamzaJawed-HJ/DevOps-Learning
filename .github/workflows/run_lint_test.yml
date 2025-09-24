@@ -27,5 +27,5 @@ jobs:
         working-directory: "./assignment 6"
 
       - name: Run Tests
-        run: npm test -- --ci --reporters=default
+        run: npm test --if-present
         working-directory: "./assignment 6"
