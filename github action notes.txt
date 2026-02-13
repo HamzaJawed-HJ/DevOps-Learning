@@ -16,3 +16,12 @@ workflow execution:
 
 	an event occurs--> workflow start--> jobs execute in parallel 
  
+ 
+VOLUME:
+
+Storage mechanisum 
+
+
+volume work as a storage. 
+
+when we change locally, volume automatically 
